@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>BlissRP Beta</title>
+</head>
+<body>
+<div class="row m-0">
+    <!-- Sidebar -->
+    <div class="sidebar col-2 d-flex flex-column bg-white vh-100 py-3 justify-content-between align-content-center shadow sticky-top">
+        <a href="#" class="d-flex px-3">
+            <img src="images/logo.svg" class="logo"></img>
+        </a>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="#"><i data-feather="hash" class="me-3"></i> Community</a>
+            <a class="nav-link" href="#"><i data-feather="briefcase" class="me-3"></i> Business</a>
+            <a class="nav-link" href="#"><i data-feather="flag" class="me-3"></i> Statistics</a>
+            <a class="nav-link" href="#"><i data-feather="git-merge" class="me-3"></i> Development</a>
+            <a class="nav-link" href="#"><i data-feather="award" class="me-3"></i> VIP Membership</a>
+        </nav>
+        <nav class="nav flex-column">
+            <a class="nav-link my-0" href="#"><i data-feather="settings" class="me-3"></i> Account settings</a>
+            <a class="nav-link my-0" href="#"><i data-feather="log-out" class="me-3"></i> Log out</a>
+        </nav>
+    </div>
+    <!-- Sidebar end -->
+    <!-- Main area -->
+    <div class="col p-3 m-3">
+        <!-- Top bar -->
+        <div class="row">
+            <div class="top-bar d-flex justify-content-between">
+                <!-- Search bar -->
+                <input type="search" id="" class="search flex-1 me-5" placeholder="Search citizens...">
+                <!-- Search bar end -->
+                <div class="d-flex flex-1">
+                    <button type="button" class="btn btn-outline-secondary text-nowrap m-2" disabled data-bs-toggle="button">10 user(s) online</button>
+                    <!-- If online -->
+                    <button type="button" class="btn btn-primary text-nowrap m-2">Enter the city <i data-feather="arrow-right"></i></button>
+                    <!-- Endif -->
+                </div>
+            </div>
+        </div>
+        <!-- Top bar end -->
+        <div class="row my-3">
+            <div class="col-3">
+                <div class="user-avatar d-flex justify-content-center">
+                    <img src="https://www.habbo.com/habbo-imaging/avatarimage?figure=ch-990000583-1408.hd-3092-7.lg-990000222-1189.hr-987463019-31&direction=3&head_direction=3&gesture=sml&size=l&action=wav">
+                </div>
+            </div>
+            <div class="flex-1 col-9 d-flex flex-column">
+                <h2>Hi there, Varlot!</h2>
+                <div class="d-flex justify-content-between">
+                    <div class="fw-bold">Level 4</div>
+                    <div>351 XP</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col">
+                        <h3>Finances</h3>
+                        <div class="d-flex">
+                            <div class="d-flex me-3">
+                                <div class="finance-wrapper d-flex justify-content-center shadow-sm">
+                                    <div class="finance-icon d-flex justify-content-center"><i data-feather="dollar-sign"></i></div>
+                                </div>
+                                <div class="finance-text d-flex flex-column justify-content-center">
+                                    <h4>$70</h4>
+                                    <p>in your wallet</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="finance-wrapper d-flex justify-content-center shadow-sm">
+                                    <div class="finance-icon d-flex justify-content-center"><i data-feather="database"></i></div>
+                                </div>
+                                <div class="finance-text d-flex flex-column justify-content-center">
+                                    <h4>$730</h4>
+                                    <p>in the bank</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Your job</h3>
+                        <div class="d-flex justify-content-between">
+                            <div class="fw-bold">Job title</div>
+                            <p>Trainee</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="fw-bold">Business</div>
+                            <p>Bliss Weaponry</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="fw-bold">Wage</div>
+                            <p>10c every 10 minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-8">
+                <h3>News</h3>
+            </div>
+            <div class="col-4">
+                <h3>Discord</h3>
+                <iframe src="https://discord.com/widget?id=874386300629823548&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Main area end -->
+</div>
+
+
+
+<!-- JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+    feather.replace()
+</script>
+
+</body>
+</html>

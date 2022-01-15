@@ -1,0 +1,79 @@
+/* Design by Varlot for BlissRP */
+
+/* Externals */
+@import url("https://use.typekit.net/ywx1ikv.css");
+
+/* Color variables */
+:root {
+    --main: #83CFD7;
+    --secondary: #E44775;
+    --green: #93D393;
+    --green-text: #659F65;
+    --red: #D88686;
+    --red-text: #8B4F4F;
+    --sub-blue: #EFF1FF;
+    --grey: #464749;
+    --blue-text: #3C7277;
+}
+
+body {
+    font-family: semplicitapro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464749;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+/* Typography */
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+b { font-weight: 700;}
+
+/* Buttons */
+.btn {
+    font-weight: 800;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--main);
+    border: none;
+}
+
+.btn-primary:hover{background-color:#6DB1B9;}
+
+.btn-outline-secondary:disabled {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    border: 3px solid;
+}
+
+/* Labels */
+
+/* Forms */
+
+/* Progress bars */
+.progress {
+    background-color: #d2d2d2;
+    border-radius: 1rem;
+}
+
+.progress-bar {
+    background-color: var(--secondary);
+}
